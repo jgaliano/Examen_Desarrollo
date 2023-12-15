@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Django CRUD Aplication</title>
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="/">Home</a>
+            </li>
+            <li>
+                <a href="/vendedor">Personal</a>
+            </li>
+            <li>
+                <a href="/productos">Productos</a>
+            </li>
+            <li>
+                <a href="/pedidos">Pedidos</a>
+            </li>
+            <li>
+                <a href="/cliente">Clientes</a>
+            </li>
+            <li>
+                <a href="/supervisor">Supervisor</a>
+            </li>
+        </ul>
+    </nav>
+
+    {% block content %}
+    {% endblock %}
+</body>
+</html>

@@ -1,0 +1,45 @@
+Vendedor: 
+	Nombre
+	Apellido
+	DPI
+	Telefono
+	Dirección
+	Estado
+	Supervisor(Foreign Key)
+
+Supervisor:
+	Nombre
+	Apellido
+	DPI
+	Telefono
+	Dirección
+
+Cliente:
+	Nombre
+	Apellido
+	DPI
+	Telefono
+	Dirección
+
+Producto:
+	Nombre Producto
+	DescProducto
+	Precio Producto
+
+Pedido:
+	Fecha
+	Vendedor
+	Cliente
+	Producto
+	Cantidad
+	Total
+
+
+Datos a ingresar el Pedido:
+	Seleccionar Vendedor
+	Seleccionar Cliente
+	Seleccionar Producto
+	Indicar Cantidad
+	
+
+
